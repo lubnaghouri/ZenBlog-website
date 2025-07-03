@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Large Navbar Toggler Box</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header id="header" class=" header sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-2" href="#">ZenBlog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#menuModal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Single Post</a>
+                        </li>
+
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Catogry 1</a></li>
+                                <li><a class="dropdown-item" href="#">Catogry 2</a></li>
+                                <li><a class="dropdown-item" href="#">Catogry 3</a></li>
+                                <li><a class="dropdown-item" href="#">Catogry 4</a></li>
+                                <li><a class="dropdown-item" href="#">Catogry 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#testimonials">Contact</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="#" class="nav-icon"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#" class="nav-icon"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="#" class="nav-icon"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="nav-icon"><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="modal fade" id="menuModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- modal-lg gives large box -->
+            <div class="modal-content">
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal"></button>
+                <div class="modal-body">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#">Home</a></li>
+                        <li><a class="nav-link" href="#">About</a></li>
+                        <li><a class="nav-link" href="#">Single Post</a></li>
+                        <li><a class="nav-link" href="#">Category</a></li>
+                        <li><a class="nav-link" href="#">Team</a></li>
+                        <li><a class="nav-link" href="#">Dropdown</a></li>
+                        <li><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="hero">
+        <div class="container ">
+
+            <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Assets/images/post-slide-1.jpg" class="w-100" alt="slide1">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h1>The Best Homemade Masks for Face (keep the Pimples Away)</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="./Assets/images/post-slide-2.jpg" class="d-block w-100" alt="slide2">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h1>The Best Homemade Masks for Face (keep the Pimples Away)</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="./Assets/images/post-slide-3.jpg" class="d-block w-100" alt="slide3">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h1>The Best Homemade Masks for Face (keep the Pimples Away)</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est
+                                mollitia!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="./Assets/images/post-slide-4.jpg" class="d-block w-100" alt="slide3">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h1>The Best Homemade Masks for Face (keep the Pimples Away)</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est
+                                mollitia!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 border-end pe-4">
+                    <div>
+                        <a href="#"> <img src="./Assets/images/post-landscape-1.jpg" class="img-fluid mb-3"></a>
+                        <div class="date mb-3">
+                            <span>Culture</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="heading-info">
+                            <h2 class="my-3 fw-bold fs-1 ">11 Work From Home Part-Time Jobs You Can Do Now</h2>
+                        </a>
+
+                        <p class="mb-4 d-block p-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                            temporibus repudiandae,
+                            inventore
+                            pariatur numquam cumque possimus exercitationem? Nihil tempore odit ab minus eveniet
+                            praesentium, similique blanditiis molestiae ut saepe perspiciatis officia nemo, eos quae
+                            cumque.
+                            Accusamus fugiat architecto rerum animi atque eveniet,
+                            quo, praesentium dignissimos
+                        </p>
+
+                        <div class="mb-3">
+                            <img src="./Assets/images/person-1.jpg" class="img-fluid image">
+                            <span class="p-info ps-2">Cameron Williamson</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 border-end px-4">
+                    <div>
+                        <a href="#"> <img src="./Assets/images/post-landscape-2.jpg" class="img-fluid mb-3"></a>
+                        <div class="date mb-3">
+                            <span>sport</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+
+                        <a href="#" class="s-heading mb-3">
+                            <h4>Let’s Get Back to Work, New York</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-3.jpg" class="img-fluid mb-3"></a>
+
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+
+                            <h4>How to Avoid Distraction and Stay Focused During Video Calls?</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-5.jpg" class="img-fluid mb-3">
+                        </a>
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+                            <h4>Why Craigslist Tampa Is One of The Most Interesting Places On the Web?</h4>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 px-4">
+                    <div>
+                        <a href="#"> <img src="./Assets/images/post-landscape-3.jpg" class="img-fluid mb-3"></a>
+                        <div class="date mb-3">
+                            <span>sport</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+
+                        <a href="#" class="s-heading mb-3">
+                            <h4>6 Easy Steps To Create Your Own Cute Merch For Instagram</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-5.jpg" class="img-fluid mb-3"></a>
+
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+
+                            <h4>10 Life-Changing Hacks Every Working Mom Should Know</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-7.jpg" class="img-fluid mb-3">
+                        </a>
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+                            <h4>5 Great Startup Tips for Female Founders</h4>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 p-0">
+                    <div class="trending-box">
+                        <h3 class="trending-title">Trending</h3>
+
+                        <div class="trend-item py-3">
+                            <span class="number">1</span>
+                            <div class="trend-content">
+                                <p class="trend-heading">The Best Homemade Masks for Face (keep the Pimples Away)</p>
+                                <p class="trend-author">Jane Cooper</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <span class="number">2</span>
+                            <div class="trend-content">
+                                <p class="trend-heading">17 Pictures of Medium Length Hair in Layers That Will Inspire
+                                    Your New Haircut</p>
+                                <p class="trend-author">Wade Warren</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <span class="number">3</span>
+                            <div class="trend-content">
+                                <p class="trend-heading">13 Amazing Poems from Shel Silverstein with Valuable Life
+                                    Lessons</p>
+                                <p class="trend-author">Esther Howard</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <span class="number">4</span>
+                            <div class="trend-content">
+                                <p class="trend-heading">9Half-up/half-down Hairstyles for Long and Medium Hair</p>
+                                <p class="trend-author">Cameron Williamson</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <span class="number">5</span>
+                            <div class="trend-content">
+                                <p class="trend-heading">Life insurance And Pragnancy: A Working Mom's Guide</p>
+                                <p class="trend-author">Jenny Wilson</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="culture">
+        <div class="container">
+            <div class="heading-culture d-flex justify-content-between">
+                <h2 class="fs-1 p-info fw-bold">Culture</h2>
+                <small class="p-info">SEE ALL CULTURE
+                    <hr class="h1">
+                </small>
+            </div>
+            <hr class="h1 border-3 bg-black">
+            <div class="row mt-5">
+                <div class="col-md-9">
+                    <div class="row mb-5">
+                        <div class="col-md-8">
+                            <div>
+                                <img src="./Assets/images/culture-1.jpg" class="img-fluid mb-3">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <div class="date mb-3">
+                                    <span>culture</span>
+                                    <span>.</span>
+                                    <span>Jul 7th 22</span>
+                                </div>
+                                <a href="#" class="s-heading">
+                                    <h5 class="fs-4">What is the son of Football Coach John Gruden, Deuce Gruden doing
+                                        Now?</h5>
+                                </a>
+
+                                <p class="text-muted p-info">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Distinctio
+                                    placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas,
+                                    nobis
+                                    error deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos
+                                    deleniti?</p>
+
+                                <div class="d-flex align-items-center">
+                                    <img src="./Assets/images/person-2.jpg" class="rounded-circle me-2 img-fluid"
+                                        width="30" alt="Author">
+                                    <span class="date">Wade Warren</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div>
+                                <img src="./Assets/images/post-landscape-1.jpg" class="img-fluid mb-3">
+                                <div class="date mb-3">
+                                    <span>culture</span>
+                                    <span>.</span>
+                                    <span>Jul 7th 22</span>
+                                </div>
+                                <a href="#" class="s-heading mb-3">
+                                    <h5>11 Work From Home Part-Time Jobs You Can Do Now </h5>
+                                </a>
+                                <span class="date mb-3">Wade Warren</span>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus
+                                    repudiandae,
+                                    inventore pariatur numquam cumque possimus
+                                </p>
+                                <hr>
+                                <div class="date mb-3">
+                                    <span>culture</span>
+                                    <span>.</span>
+                                    <span>Jul 7th 22</span>
+                                </div>
+
+                                <a href="#" class="s-heading mb-3">
+                                    <h5>5 Great Startup Tips for Female Founders</h5>
+                                </a>
+                                <span class="date">Jenny Wilson</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div>
+                                <img src="./Assets/images/post-landscape-2.jpg" class="img-fluid mb-3">
+                            </div>
+                            <div class="date mb-3">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <a href="#" class="s-heading mb-3">
+                                <h5 class="fs-3">11 Work From Home Part-Time Jobs You Can Do Now </h5>
+                            </a>
+                            <span class="date fs-6 mb-3">Wade Warren</span>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae,
+                                inventore pariatur numquam cumque possimus
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="trending-box border-0">
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading fs-5 mb-2">The Best Homemade Masks for Face (keep the
+                                        Pimples Away)
+                                    </p>
+                                </a>
+                                <p class="trend-author">Jane Cooper</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading fs-5 mb-2">17 Pictures of Medium Length Hair in Layers That
+                                        Will
+                                        Inspire
+                                        Your New Haircut</p>
+                                </a>
+                                <p class="trend-author">Wade Warren</p>
+                            </div>
+                        </div>
+                        `
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading fs-5 mb-2">13 Amazing Poems from Shel Silverstein with
+                                        Valuable Life
+                                        Lessons</p>
+                                </a>
+                                <p class="trend-author">Esther Howard</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading fs-5 mb-2">9Half-up/half-down Hairstyles
+                                        for Long and Medium Hair</p>
+                                </a>
+                                <p class="trend-author">Cameron Williamson</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading fs-5 mb-2">Life insurance And Pragnancy:
+                                        A Working Mom's Guide</p>
+                                </a>
+                                <p class="trend-author">Jenny Wilson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="buisness">
+        <div class="container">
+            <div class="heading-culture d-flex justify-content-between">
+                <h2 class="fs-1 p-info fw-bold">Buisness</h2>
+                <small class="p-info">SEE ALL BUISNESS
+                    <hr class="h1">
+                </small>
+            </div>
+            <hr class="h1 border-3 bg-black">
+            <div class="row mt-5">
+
+                <div class="col-md-3">
+                    <div class="trending-box border-0">
+                        <div class="trend-item">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading fs-4 mb-2">The Best Homemade Masks for Face (keep the
+                                        Pimples Away)
+                                    </p>
+                                </a>
+                                <p class="trend-author">Jane Cooper</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading fs-4 mb-2">17 Pictures of Medium Length Hair in Layers That
+                                        Will
+                                        Inspire
+                                        Your New Haircut</p>
+                                </a>
+                                <p class="trend-author">Wade Warren</p>
+                            </div>
+                        </div>
+                        `
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading fs-4 mb-2">13 Amazing Poems from Shel Silverstein with
+                                        Valuable Life
+                                        Lessons</p>
+                                </a>
+                                <p class="trend-author">Esther Howard</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading fs-4 mb-2">9Half-up/half-down Hairstyles
+                                        for Long and Medium Hair</p>
+                                </a>
+                                <p class="trend-author">Cameron Williamson</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading fs-4 mb-2">Life insurance And Pragnancy:
+                                        A Working Mom's Guide</p>
+                                </a>
+                                <p class="trend-author">Jenny Wilson</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row mb-3">
+                        <div class="col-md-8">
+                            <div>
+                                <img src="./Assets/images/post-landscape-3.jpg" class="img-fluid mb-2">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <div class="date mb-2">
+                                    <span>culture</span>
+                                    <span>.</span>
+                                    <span>Jul 7th 22</span>
+                                </div>
+                                <a href="#" class="s-heading">
+                                    <h5 class="fs-3">What is the son of Football Coach John Gruden, Deuce Gruden doing
+                                        Now?</h5>
+                                </a>
+
+                                <p class="text-muted p-info">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Distinctio
+                                    placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas,
+                                    nobis
+                                    error deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos
+                                    deleniti?</p>
+
+                                <div class="d-flex align-items-center">
+                                    <img src="./Assets/images/person-4.jpg" class="rounded-circle me-2 img-fluid"
+                                        width="35" alt="Author">
+                                    <span class="date">Wade Warren</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div>
+                                <img src="./Assets/images/post-landscape-5.jpg" class="img-fluid mb-3">
+                                <div class="date mb-3">
+                                    <span>culture</span>
+                                    <span>.</span>
+                                    <span>Jul 7th 22</span>
+                                </div>
+                                <a href="#" class="s-heading mb-3">
+                                    <h5>11 Work From Home Part-Time Jobs You Can Do Now </h5>
+                                </a>
+                                <span class="date">Wade Warren</span>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus
+                                    repudiandae,
+                                    inventore pariatur numquam cumque possimus
+                                </p>
+                                <hr>
+                                <div class="date mb-3">
+                                    <span>culture</span>
+                                    <span>.</span>
+                                    <span>Jul 7th 22</span>
+                                </div>
+
+                                <a href="#" class="s-heading mb-3">
+                                    <h5>5 Great Startup Tips for Female Founders</h5>
+                                </a>
+                                <span class="date">Jenny Wilson</span>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div>
+                                <img src="./Assets/images/post-landscape-7.jpg" class="img-fluid mb-3">
+                            </div>
+                            <div class="date mb-3">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <a href="#" class="s-heading mb-3">
+                                <h5 class="fs-3">11 Work From Home Part-Time Jobs You Can Do Now </h5>
+                            </a>
+                            <span class="date fs-6 mb-3">Wade Warren</span>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae,
+                                inventore pariatur numquam cumque possimus
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="lifstyle">
+        <div class="container">
+            <div class="heading-culture d-flex justify-content-between">
+                <h2 class="fs-1 p-info fw-bold">Lifestyle</h2>
+                <small class="p-info">SEE ALL LIFESTYLE
+                    <hr class="h1">
+                </small>
+            </div>
+            <hr class="h1 border-3 bg-black mb-5">
+
+            <div class="row">
+                <div class="col-md-4 border-end pe-4">
+                    <div>
+                        <a href="#"> <img src="./Assets/images/post-landscape-8.jpg" class="img-fluid mb-3"></a>
+                        <div class="date mb-3">
+                            <span>Culture</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="heading-info">
+                            <h2 class="my-3 fw-bold fs-1 ">11 Work From Home Part-Time Jobs You Can Do Now</h2>
+                        </a>
+
+                        <p class="mb-4 d-block p-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                            temporibus repudiandae,
+                            inventore
+                            pariatur numquam cumque possimus exercitationem? Nihil tempore odit ab minus eveniet
+                            praesentium, similique blanditiis molestiae ut saepe perspiciatis officia nemo, eos quae
+                            cumque.
+                            Accusamus fugiat architecto rerum animi atque eveniet,
+                            quo, praesentium dignissimos
+                        </p>
+
+                        <div class="mb-3">
+                            <img src="./Assets/images/person-7.jpg" class="img-fluid image">
+                            <span class="p-info ps-2">Cameron Williamson</span>
+                        </div>
+                        <div class="date mb-3">
+                            <span>Culture</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading">
+                            <h4 class="fs-5">The Best Homemade Masks for Face (keep the Pimples Away)</h4>
+                        </a>
+                        <span class="p-info">Cameron Williamson</span>
+
+                        <div class="date mb-3 mt-3">
+                            <span>Culture</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading">
+                            <h4 class="fs-5">The Best Homemade Masks for Face (keep the Pimples Away)</h4>
+                        </a>
+                        <span class="p-info">Cameron Williamson</span>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 border-end px-4">
+                    <div>
+                        <a href="#"> <img src="./Assets/images/post-landscape-6.jpg" class="img-fluid mb-3"></a>
+                        <div class="date mb-3">
+                            <span>sport</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+
+                        <a href="#" class="s-heading mb-3">
+                            <h4>Let’s Get Back to Work, New York</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-5.jpg" class="img-fluid mb-3"></a>
+
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+
+                            <h4>How to Avoid Distraction and Stay Focused During Video Calls?</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-4.jpg" class="img-fluid mb-3">
+                        </a>
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+                            <h4>Why Craigslist Tampa Is One of The Most Interesting Places On the Web?</h4>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 px-4">
+                    <div>
+                        <a href="#"> <img src="./Assets/images/post-landscape-3.jpg" class="img-fluid mb-3"></a>
+                        <div class="date mb-3">
+                            <span>sport</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+
+                        <a href="#" class="s-heading mb-3">
+                            <h4>6 Easy Steps To Create Your Own Cute Merch For Instagram</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-2.jpg" class="img-fluid mb-3"></a>
+
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+
+                            <h4>10 Life-Changing Hacks Every Working Mom Should Know</h4>
+                        </a>
+
+
+                        <a href="#"><img src="./Assets/images/post-landscape-7.jpg" class="img-fluid mb-3">
+                        </a>
+                        <div class="date mb-3">
+                            <span>Food</span>
+                            <span>.</span>
+                            <span>Jul 5th 25</span>
+                        </div>
+                        <a href="#" class="s-heading mb-3">
+                            <h4>5 Great Startup Tips for Female Founders</h4>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 p-0">
+                    <div class="trending-box border-0">
+                        <div class="trend-item">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading  mb-2">The Best Homemade Masks for Face keep
+                                    </p>
+                                </a>
+                                <p class="trend-author">Jane Cooper</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading  mb-2">17 Pictures of Medium Length Hair in Layers </p>
+                                </a>
+                                <p class="trend-author">Wade Warren</p>
+                            </div>
+                        </div>
+                        `
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading mb-2">13 Amazing Poems from Shel Silverstein with
+                                        Valuable Life
+                                        Lessons</p>
+                                </a>
+                                <p class="trend-author">Esther Howard</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading mb-2">9Half-up/half-down Hairstyles
+                                        for Long and Medium Hair</p>
+                                </a>
+                                <p class="trend-author">Cameron Williamson</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal">
+                                    <p class="trend-heading mb-2">Life insurance And Pragnancy:
+                                        A Working Mom's Guide</p>
+                                </a>
+                                <p class="trend-author">Jenny Wilson</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading  mb-2">17 Pictures of Medium Length Hair in Layers </p>
+                                </a>
+                                <p class="trend-author">Wade Warren</p>
+                            </div>
+                        </div>
+
+                        <div class="trend-item py-3">
+                            <div class="date mb-2">
+                                <span>culture</span>
+                                <span>.</span>
+                                <span>Jul 7th 22</span>
+                            </div>
+                            <div class="trend-content">
+                                <a href="#" class="s-heading fw-normal ">
+                                    <p class="trend-heading  mb-2">17 Pictures of Medium Length Hair in Layers </p>
+                                </a>
+                                <p class="trend-author">Wade Warren</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <footer class="bg-black mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <h3 class="p-info mb-4">ZenBlog</h3>
+                        <p class="p-info fs-6">A108 Adam Street</p>
+                        <p class="p-info fs-6">New York, NY 535022</p>
+                        <p class="p-info fs-6">Phone: +1 5589 55488 55</p>
+                        <p class="p-info fs-6 mb-4">Email: info@example.com</p>
+                    </div>
+                    <div class="mb-4">
+                        <a href="#" class="f-icon"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#" class="f-icon"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="#" class="f-icon"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="f-icon"><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5 class="p-info mb-4">Useful links</h5>
+                            <div class="d-flex flex-column g-3 p-info">
+                                <a href="#" class="links">Home</a>
+                                <a href="#" class="links">About us</a>
+                                <a href="#" class="links">Services</a>
+                                <a href="#" class="links">Terms of services</a>
+                                <a href="#" class="links">Privacy policy</a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <h5 class="p-info mb-4">Our Services</h5>
+                            <div class="d-flex flex-column g-3 p-info">
+                                <a href="#" class="links">Web Design</a>
+                                <a href="#" class="links">Web Development</a>
+                                <a href="#" class="links">Product Management</a>
+                                <a href="#" class="links">Marketing</a>
+                                <a href="#" class="links">Graphic Design</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h5 class="p-info mb-4">Hic solutasetp</h5>
+                            <div class="d-flex flex-column g-3 p-info">
+                                <a href="#" class="links">Molestiae accusamus iure</a>
+                                <a href="#" class="links">Excepturi dignissimos</a>
+                                <a href="#" class="links">Suscipit distinctio</a>
+                                <a href="#" class="links">Dilecta</a>
+                                <a href="#" class="links">Sit quas consectetur</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h5 class="p-info mb-4">Nobis illum</h5>
+                            <div class="d-flex flex-column g-3 p-info">
+                                <a href="#" class="links">Ipsam</a>
+                                <a href="#" class="links">Laudantium dolorum</a>
+                                <a href="#" class="links">Dinera</a>
+                                <a href="#" class="links">Trodelas</a>
+                                <a href="#" class="links">Flexo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <div>
+                <p class="text-center l-p">© Copyright <strong>ZenBlog</strong> All Rights Reserved<br>
+
+                    Designed by BootstrapMade Distributed by ThemeWagon</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

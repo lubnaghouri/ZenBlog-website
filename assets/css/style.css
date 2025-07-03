@@ -1,0 +1,181 @@
+.navbar {
+  background-color: #ecedee;
+}
+
+.nav-icon {
+  text-decoration: none;
+  color: rgb(134, 134, 134);
+  font-size: 1.3rem;
+  padding: 2px;
+
+}
+
+.navbar-brand {
+  font-family: 'Gill Sans';
+}
+
+.carousel-caption {
+  text-align: left;
+  bottom: 20%;
+}
+
+.carousel-caption h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  max-width: 500px;
+}
+
+#info {
+  padding: 100px 0px;
+}
+
+.heading-info {
+  text-decoration: none;
+  color: black;
+  font-family: 'Gill Sans';
+}
+
+.heading-info:hover {
+  text-decoration: underline;
+}
+
+.date {
+  color: rgb(148, 146, 146);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Gill Sans';
+  letter-spacing: 0.07rem;
+  font-weight: 600;
+
+}
+
+.p-info {
+  font-family: 'Gill Sans';
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.s-heading {
+  color: rgb(36, 35, 35);
+  text-decoration: none;
+  font-family: 'Gill Sans';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.s-heading:hover {
+  text-decoration: underline;
+}
+
+.trending-box {
+  border: 1px solid #ddd;
+  width: 100%;
+  font-family: 'Gill Sans';
+  background-color: #fff;
+}
+
+.trending-title {
+  font-size: 25px;
+  padding: 15px;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.trend-item {
+  position: relative;
+  padding: 0px 10px 10px 20px;
+  border-bottom: 1px solid #eee;
+  ;
+}
+
+
+.trend-item:last-child {
+  border-bottom: none;
+}
+
+.number {
+  font-size: 5rem;
+  color: #eee;
+  margin-right: 10px;
+  font-weight: bold;
+  position: absolute;
+  left: -2px;
+  top: -10px;
+  line-height: 1;
+  opacity: 0.7;
+
+}
+
+.trend-heading {
+  font-size: 18px;
+  color: #000;
+  margin: 0 0 5px;
+}
+
+.trend-author {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+}
+
+
+#culture {
+  padding: 100px 0px;
+}
+
+#buisness {
+  padding: 100px 0px;
+}
+
+#lifestyle {
+  padding: 100px 0px;
+
+}
+
+footer {
+  padding: 30px 0px;
+  color: white;
+}
+
+.f-icon {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  font-size: 1.3rem;
+
+}
+
+.f-icon:hover {
+  color: #999;
+  border: 1px solid #999;
+  transition: all .4s ease;
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(215, 214, 214);
+  margin-bottom: 12px;
+  font-size: 14px;
+
+}
+
+.links:hover {
+  color: #999;
+  opacity: 0.6;
+  transition: all .4s ease;
+}
+
+.l-p {
+  font-size: 14px;
+}
